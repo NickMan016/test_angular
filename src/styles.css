@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+.header {
+    /* position: fixed;
+    width: 100%; */
+    background: rgb(0, 96, 240);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .logo {
+    height: 40px;
+}
+
+.header .nav.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 12px 18px;
+    transition: .3s ease all;
+    font-size: 1.25rem;
+}
+
+.nav a.link:hover {
+    background:rgb(32, 120, 255);
+}
+ 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cotizacion {
+    width: 40%;
+    display: block;
+}
+
+.btn-cotizar {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background: rgb(0, 96, 240);
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+@media screen and (min-height: 750px) {
+    .content {
+        height: 96vh;
+    }
+}
